@@ -15,8 +15,8 @@ allennlp==0.9.0
 ### Refined GeoQA Dataset
 Please note, we refined the GeoQA dataset to remove the Alpha Chanel in the geometry diagrams to satisfy the requirement of ViT input. The refined dataset named as GeoQA-Pro and used in this repo.
 
-### Prepare Robert-CHN
-Due to LFS space limited, please download robert-chn from https://huggingface.co/hfl/chinese-roberta-wwm-ext and move the pytorch_model.bin to the roberta folder in this repo.
+### Prepare Roberta-CHN
+Due to LFS space limited, please download roberta-chn from https://huggingface.co/hfl/chinese-roberta-wwm-ext and move the pytorch_model.bin to the roberta folder in this repo.
 
 ### Training    
     allennlp train config/DPE.json --include-package DPE -s test/
